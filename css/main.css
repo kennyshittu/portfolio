@@ -1,0 +1,258 @@
+
+/************************************
+GENERAL
+************************************/
+body {
+	font-family: 'open sans', sans-serif;
+
+}
+/*format division with id wrapper in html page*/ 
+.wrapper {
+	max-width: 940px;
+	margin: 6em auto;
+	padding: 0 5%;
+}
+/* disables line decoration for links*/
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+
+header {
+	/*float :left;*/
+	clear:right;
+	margin:0 0 30px 0;
+	padding: 5px 0 0 0;
+	width:100%; 
+	position: fixed;
+	top: 0;
+}
+/*#barner{
+	min-height: 100px;
+	background: lightblue;
+	margin: 0 0;
+	padding: 0 0;
+}
+*/
+/* formats header text */
+#logo h1,#logo h2{
+	text-align: center;	
+	display: block;
+	margin: 0;
+}
+h1{
+	font-family: 'playball', sans-serif;
+	margin: 5px auto;
+	padding-top: 15px;
+	padding-left: 10px;
+	max-width: 100%;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+h2 {
+	font-family: 'pacifico', sans-serif;
+	font-size: 1.00em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+h3{
+	margin: 0 0 1em 0;
+}
+/************************************
+NAVIGATION
+************************************/
+/*navigation font structure*/ 
+nav {
+	text-align: center;
+	margin: 20px 0 0;
+	padding: 10px 0 0;
+	border-bottom: 5px solid #ffaaaa;
+	border-radius: 10%;
+}
+
+nav ul {
+	margin: 0 5px;
+	padding: 0;
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+
+}
+nav a {
+	font-weight: 800;
+	padding: 0px 10px;
+	font-size: 0.65em;
+	
+}
+
+
+/************************************
+footer
+************************************/
+/*footer structure*/ 
+footer {
+	color:#990000;
+	text-align: center;
+	clear :both;
+	padding-top: 50px;
+	font-size: 0.75em;
+}
+.social_icon{
+	width: 20px;
+	height: 20px;
+	padding: 0 5px;
+}
+/************************************
+Page portfolio
+************************************/
+#gallery {
+    margin : 0;
+    padding: 0;
+    list-style: none;
+}
+#gallery li {
+	float:left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #ffaaaa;
+	color: #bdc3c7;
+	border-radius: 10%;
+}
+#gallery li a p {
+	margin:0;
+	padding: 5%;
+	font-size: 0.75em;
+	color: #990000;
+}
+#gallery li a img {
+	border-top-left-radius: 10%;
+	border-top-right-radius: 10%;
+}
+ section h2, p {
+	color: #990000;
+	margin: 0 0 1em 0;
+}
+
+/************************************
+BODY
+************************************/
+/*gives body bg image and body text color*/ 
+body{
+	color: #999;
+	background: url('../img/9.jpg');
+	margin: 0 0;
+	padding: 0 0;
+}
+
+/************************************
+HEADING
+************************************/
+/*green header*/
+header {
+	background: #990000;
+	border-color: #990000;
+
+}
+header a hr {
+	color: #fff;
+	width: 15%;
+	text-align: center;
+	display: block; 
+}
+/* Makes header text white */
+h1 {
+	color :#fff;
+}
+header h2 {
+	color:#ffaaaa;
+}
+
+/* page links belongs to body*/
+a {
+	color:#6ab47b;
+}
+
+/************************************
+NAVIGATION
+************************************/
+/*navigation color on mobiles*/ 
+nav {
+	color: #fff;
+	
+	
+	height: 50px;
+	margin: auto auto;
+}
+/*Visted links in the nav  will not change color*/
+nav a, nav a:visited{
+	
+	color: #fff;
+	padding-bottom: 0px;
+}
+/*based on the class selected created in the index.html and assigned to 
+portfolio link, current link will have a dark green  */
+nav a.selected, nav a:hover {
+	color: #ffaaaa;
+
+}
+/************************************
+About page
+************************************/
+.profile-photo{
+	display: block;
+	max-width: 150px;
+	margin: 0 5% 80px;
+	border-radius:50%;
+	float: left;
+}
+
+/************************************
+Contact page
+************************************/
+.contact-info{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 0.9em;
+}
+.contact-info a{
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 20px 30px;
+
+
+}
+.contact-info li a{
+	color: #ff1010;
+}
+.contact-info li.phone a{
+	background-image: url('../img/phone.png');
+}
+.contact-info li.mail a{
+	background-image: url('../img/mail.png');
+}
+.contact-info li.twitter a{
+	background-image: url('../img/twitter.png');
+}
+#Portfolio{
+	padding: 10em;
+}
+#About{
+	display: block;
+	clear:both;
+	margin: 5em;
+	min-height: 95%;
+	padding-top: 10em; 
+}
+#Contact{
+	display: block;
+	clear:both;
+	min-height: 95%;
+	padding: 10em;
+}
