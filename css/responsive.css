@@ -1,0 +1,76 @@
+
+@media screen and (min-width: 480px){
+	#primary{
+		float:left;
+		width: 50%;
+	}
+	#secondary{
+		float:right;
+		width: 40%
+	}
+
+	#gallery li{
+		width: 28.333333333333%;
+		margin: 2.5%;
+	}
+	#gallery li:nth-child(4){
+		clear: left;
+	}
+
+nav a {
+	font-size: 1em;
+	padding: 0px 10px;
+	font-family: 'pacifico', sans-serif;
+}
+nav {
+	float: right;
+	text-align: right;
+
+}
+
+header{
+	border-bottom: 5px solid #ffaaaa ;
+	margin-bottom: 60px;
+}
+
+header h1{	
+	float: left;
+	text-align: left;
+}
+
+h1{	
+	font-size: 3em;
+}
+h2 {
+	font-size: 1em;	
+}
+#wrapper section h2 {
+	font-size: 1.75em;
+	width: 100%;
+}
+#logo {
+	float:left;
+}
+.profile-photo{
+	display: block;
+	max-width: 300px;
+	max-width: 300px;
+	margin: 0 5% 80px;
+	border-radius:85%;
+	float: left;
+
+
+}
+
+
+
+
+
+
+
+
+
+}
+@media screen and (min-width: 660px){
+
+}
